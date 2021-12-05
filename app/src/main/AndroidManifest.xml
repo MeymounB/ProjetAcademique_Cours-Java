@@ -10,6 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Projet_Java">
         <activity
+            android:name=".Restaurant10"
+            android:exported="true" />
+        <activity
+            android:name=".Restaurant9"
+            android:exported="true" />
+        <activity
+            android:name=".Restaurant8"
+            android:exported="true" />
+        <activity
+            android:name=".Restaurant7"
+            android:exported="true" />
+        <activity
+            android:name=".Restaurant6"
+            android:exported="true" />
+        <activity
+            android:name=".Restaurant5"
+            android:exported="true" />
+        <activity
+            android:name=".Restaurant4"
+            android:exported="true" />
+        <activity
+            android:name=".Restaurant3"
+            android:exported="true" />
+        <activity
             android:name=".Restaurant2"
             android:exported="true" />
         <activity

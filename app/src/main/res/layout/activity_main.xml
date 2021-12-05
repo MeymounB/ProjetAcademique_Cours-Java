@@ -4,31 +4,95 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="16dp"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/nomRestaurant"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Restaurant 1"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:id="@+id/textView"/>
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:text="open activity" />
+        android:layout_marginTop="16dp"
+        android:text="Restaurant 1" />
 
     <TextView
+        android:id="@+id/distance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="E-Bistrot"
-        android:layout_marginTop="20px"
-        android:layout_marginLeft="80px"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="70dp"
+        android:text="Distance :" />
 
-            />
+    <TextView
+        android:id="@+id/specialite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="100dp"
+        android:text="Spécialité :" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="267dp"
+        android:layout_height="95dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:text="Description du Restaurant :" />
+
+    <Button
+        android:id="@+id/carteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="292dp"
+        android:text="La carte (menu)" />
+
+    <Button
+        android:id="@+id/salleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/carteButton"
+        android:layout_marginLeft="186dp"
+        android:layout_marginTop="292dp"
+        android:text="Salle Virtuelle" />
+
+    <Button
+        android:id="@+id/googleMap"
+        android:layout_width="280dp"
+        android:layout_height="147dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:text="Voir sur la Map" />
+
+    <Button
+        android:id="@+id/reserver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:text="Réservation place(s)" />
+
+    <Button
+        android:id="@+id/Suivant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="585dp"
+        android:text="Suivant" />
+
+    <Button
+        android:id="@+id/support"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="649dp"
+        android:text="Support" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="649dp"
+        android:text="login" />
 
 </RelativeLayout>

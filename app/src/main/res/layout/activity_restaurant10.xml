@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:paddingHorizontal="16dp"
     android:paddingVertical="16dp"
-    tools:context=".MainActivity">
+    tools:context=".Restaurant10">
 
     <TextView
         android:id="@+id/nomRestaurant"
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:text="Restaurant 2" />
+        android:text="Restaurant 10" />
 
     <TextView
         android:id="@+id/distance"
@@ -79,15 +79,6 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="585dp"
         android:text="Précédent" />
-
-    <Button
-        android:id="@+id/Suivant"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/Retour"
-        android:layout_marginLeft="220dp"
-        android:layout_marginTop="585dp"
-        android:text="Suivant" />
 
     <Button
         android:id="@+id/support"

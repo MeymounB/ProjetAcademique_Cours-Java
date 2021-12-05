@@ -7,14 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class Restaurant8 extends AppCompatActivity {
     private Button button;
-
+    private Button button1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
+        setContentView(R.layout.activity_restaurant8);
         button = (Button) findViewById(R.id.Suivant);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -22,11 +21,25 @@ public class MainActivity extends AppCompatActivity {
                 goForward();
             }
         });
+        button1 = (Button) findViewById(R.id.Retour);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goBack();
+            }
+        });
     }
 
     public void goForward(){
 
-        Intent intent = new Intent(this, Restaurant2.class);
+        Intent intent = new Intent(this, Restaurant9.class);
         startActivity(intent);
     }
+
+    public void goBack(){
+        Intent intent2 = new Intent(this, Restaurant7.class);
+        startActivity(intent2);
+    }
+
+
 }

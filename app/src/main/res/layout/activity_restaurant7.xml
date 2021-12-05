@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:paddingHorizontal="16dp"
     android:paddingVertical="16dp"
-    tools:context=".MainActivity">
+    tools:context=".Restaurant7">
 
     <TextView
         android:id="@+id/nomRestaurant"
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:text="Restaurant 2" />
+        android:text="Restaurant 7" />
 
     <TextView
         android:id="@+id/distance"
