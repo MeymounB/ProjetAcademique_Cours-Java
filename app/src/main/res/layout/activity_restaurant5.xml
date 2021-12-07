@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:text="Restaurant 5" />
+        android:text="Higuma" />
 
     <TextView
         android:id="@+id/distance"
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="70dp"
-        android:text="Distance :" />
+        android:text="Adresse : 32bis Rue Sainte-Anne, 75001 Paris, France" />
 
     <TextView
         android:id="@+id/specialite"
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="100dp"
-        android:text="Spécialité :" />
+        android:text="Spécialité : Japonais" />
 
     <TextView
         android:id="@+id/description"
@@ -38,7 +38,7 @@
         android:layout_height="95dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="160dp"
-        android:text="Description du Restaurant :" />
+        android:text="Description du Restaurant :            Itinéraire : RER A jusqu’à Auber puis prendre le métro 7 jusqu’à Pyramides" />
 
     <Button
         android:id="@+id/carteButton"
